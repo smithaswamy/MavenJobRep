@@ -24,7 +24,12 @@ public class TestCalculator {
 		assertTrue(actual==expected);
 	}
 
-	
+	@Test
+	public void testMul() {
+		int actual=cal.mul(4, 4);
+		int expected=16;
+		assertTrue(actual==expected);
+	}
 	@Test
 	public void testSub() {
 		int actual=cal.sub(5, 4);

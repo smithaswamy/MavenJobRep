@@ -16,4 +16,9 @@ public class Calculator {
 		System.out.println("Add:\t"+cal.add(3,3));
 		System.out.println("SUB:\t"+cal.sub(5, 2));
 	}
+
+	public int mul(int i, int j) {
+		
+		return i*j;
+	}
 }
